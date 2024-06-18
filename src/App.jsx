@@ -67,6 +67,9 @@ function App() {
 
   function insertTask(e){
     e.preventDefault();
+
+  if (!nome) return;
+
     latestID = latestID+1;
     setID(latestID);
     const newTask = {id:latestID, nome: nome};
