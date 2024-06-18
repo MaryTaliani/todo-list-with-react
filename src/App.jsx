@@ -11,7 +11,7 @@ function App() {
     {id:2, nome: "Chiamare il medico"}
   ]);
   let [tasks_doing, setDoings] = useState([
-    {id:3, nome: "Aggiungere un progetto alle pagine GitHub"}
+    {id:3, nome: "Aggiungere il nuovo progetto a GitHub"}
   ]);
   let [tasks_done, setDones] = useState([]);
 
